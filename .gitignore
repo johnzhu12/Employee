@@ -1,6 +1,13 @@
 # will  be ignore by git,add by john
 
-/_build/node_modules
-/distH5
-/rev
-npm-debug.log
+/Angular/_build/node_modules
+/Angular/distH5
+/Angular/rev
+/Angular/npm-debug.log
+
+
+/Vuenode_modules
+/Vue/dist
+/Vue/npm-debug.log
+
+
