@@ -1,0 +1,6 @@
+# will  be ignore by git,add by john
+
+/_build/node_modules
+/distH5
+/rev
+npm-debug.log

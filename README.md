@@ -1,7 +1,3 @@
-# Employee
-an list made with angularjs  
-
-
 **steps to use：**<br>
 
 1. cd _build & npm install

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="employee">
+<head>
+       <title>Employee</title>
+        <!--声明文档使用的字符编码-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <!--网站关键字及描述，利于seo-->
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <!--启用viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <!--启用WebApp全屏模式-->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!--ios添加到主屏幕的标题-->
+        <meta name="apple-mobile-web-app-title" content="标题" />
+        <!--解决iOS4.3版本中safari对页面中5位数字的自动识别和自动添加样式-->
+        <meta name="format-detection" content="telephone=no" />
+        <!--禁止Android自动识别页面中的邮件地址-->
+        <meta name="format-detection" content="email=no" />
+        <!-- 启用360浏览器的极速模式(webkit) -->
+        <meta name="renderer" content="webkit">
+        <!--网站左上角显示的icon，大小为32*32-->
+        <!-- <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" /> -->
+        <!--ios添加到主屏幕的icon（为了兼容所有ipad,ipod,iphone,以及Retina。需要57*57, 72*72, 114*114, 144*144, 180*180五种尺寸的icon）-->
+        <link rel="stylesheet" type="text/css" href="../css/employee.css">
+</head>
+
+<body ng-controller="mainCtr as ctr">
+
+    <h3>employee</h3>
+    <br>
+    <employee-list  data='employees'></employee-list>
+    
+
+    <script src="../lib/angular-1.5.8/angular.js"></script>
+    <!-- <script src="../lib/angular-1.5.8/angular-animate.js"></script> -->
+    <script src="../js/app.js"></script>
+    <script src="../js/Json.js"></script>
+    <script src="../js/employee.js"></script>
+
+ 
+</body>
+</html>

@@ -1,0 +1,13 @@
+<div class="m-employeelist">
+    <div ng-repeat="employee in employees track by $index">
+        <div class="employeeItem" ng-click="toogleBio($index)">
+        {{employee.name}}
+        </div>
+        <div class="employeebio" ng-hide="showPerson != $index" ng-click="showbio(employee.bio)">
+            <div>{{employee.bio.stature}}</div>
+            <div>{{employee.bio.sex}}</div>
+            <div>{{employee.bio.degree}}</div>
+            <div>{{employee.bio.looking}}</div>
+        </div>
+    </div>
+</div>
