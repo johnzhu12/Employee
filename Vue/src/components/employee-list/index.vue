@@ -42,17 +42,19 @@ export default {
 .m-employeelist {
     .employeeItem {
         width: 100%;
-        height: 50px;
+        height: 0.5rem;
         border-top: 1px solid white;
-        line-height: 50px;
+        line-height: 0.5rem;
         text-align: left;
         background-color: #A4D3EE;
         color: white;
-        padding-left: 10px;
+        padding-left: 0.1rem;
+        font-size: 14px;
     }
     .employeebio {
         text-align: left;
-        padding-left: 10px;
+        padding-left: 0.1rem;
+        font-size: 14px;
     }
 }
 </style>
